@@ -1,0 +1,27 @@
+html,body{width:100%;height:100%;}
+.main{width:100%;height:100%;background:#000;}
+#content{
+    width:300px;
+    margin:0 auto;
+    border:3px solid #6EB6E0;
+    padding:13px;
+    line-height: center;
+
+    box-shadow: 10px 8px 10px 3px #6EB6E0;  /*Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+*/
+    -webkit-box-shadow: 10px 8px 10px 3px #6EB6E0;
+    -moz-box-shadow: 10px 8px 10px 3px #6EB6E0;
+    /*background-clip: padding-box;*/
+    opacity: 0.9; /*透明度*/
+}
+.login_content{
+    color:#fff;
+}
+.register_content{
+    color:#000;
+}
+
+.btn.f-left{float: left;}
+.btn.f-right{float: right;}
+
+#content:after{content:"";display:block;clear: both;}
+
